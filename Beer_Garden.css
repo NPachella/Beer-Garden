@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	align-items: center;
+	display: flex;
+	background-color: gray;
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+}
+li {
+	display: inline-block;
+}
+li a {
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	color: black;
+	background-color: lightgray; 
+}
+.our_pic {
+	width: 350px;
+	border-style: solid;
+	justify-content: flex-start;
+	height: auto;
+}
+#spacer {
+	width: 100px;
+	height: auto;
+}
+#event_link {
+	text-decoration: none;
+	color: #0000FF;
+}
+body {
+	margin: 0px;
+	padding-top: 60px;
+	font-family: fantasy;
+	text-align: center;
+	background-color: #e3f3f7;
+}
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+.label {
+	margin-bottom: 0px;
+}
+#Food, #Drinks{
+	border-style: inset;
+	border-color: #10326b;
+	column-count: 2;
+	padding: 25px;
+	background-color: #eef78f;
+}
+#Food h3, #Drinks h3 {
+	margin-bottom: 0;
+	font-variant: small-caps;
+	font-size: 1.3em;
+}
+#Food p, #Drinks p {
+	margin-top: 0;
+	font-size: 0.8em;
+	padding-bottom: 10px;
+}
+form {
+	column-count: 2;
+	margin-bottom: 25px;
+}
+option:first {
+	color: gray;
+}
+input [type=submit] {
+	align-items: center;
+	background-color: green;
+}
+footer {
+	display: flex;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	align-items: center;
+	justify-content: center;
+	background-color: gray;
+	color: white;
+	font-family: serif;
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-bottom: 50px;
+  margin: 0 5vw;
+}
+
+@media (max-width: 26em){
+	#Food, #Drinks{
+	column-count: 1;
+	padding: 25px;
+	background-color: #eef78f;
+}
+.content-wrap {
+	margin: 0 auto;
+	align-content: center;
+}
+}
+
+
+
